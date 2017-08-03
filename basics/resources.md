@@ -11,4 +11,4 @@ Google is your friend. The use of R as a data analysis and programming language 
 Stack Overflow bills itself as the 
 > largest, most trusted online community for developers to learn, share their programming and knowledge
 
-Whatever questioned you googled, the first google hit was probably a  Basically its a huge online message board for people learning things about computers. Most questions about R are answered on this website. 
+Whatever questioned you googled, the first google hit was probably a Stack Overflow post.  Basically its a huge online message board for people learning things about computers. Most questions that people have about R get answered on this website. A user can post a question, and then some smart programmer type answers it. Thats ideally the way it works. Practically, the programmer will ask the questioner to be more precise, to provide an example of where they are having a problem. Eventually the problem gets answered and you can find it with google. You can post a question as well, but I've never stooped to that.

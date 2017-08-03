@@ -2,6 +2,7 @@
 
 ### Introduction to R
 - [Installing R](basics/installing_R.md): installing R and RStudio.  
+- [Some R educational resources](basics/resources.md): installing R and RStudio.
 - [Heights of students versus their parents](heights/heights.md): a "hello world"-style introduction to the R environment.  
 - [Installing a library](basics/installing_library.md): installing the mosaic library from within RStudio.  
 
