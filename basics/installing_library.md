@@ -1,10 +1,19 @@
 ---
 layout: page
 ---
+Remember the movie 'The Matrix'. With Keanu Reaves?
+Remeber how in that world, in order to learn skills, they just get downloaded into your brain through that big plug in the back of your skull?
 
-A library is a piece of software that provides additional functionality to R, beyond what's contained in the basic installation.  R has an enormous ecosystem of libraries (number in the tens of thousands) for various data-analysis tasks, ranging from the simple to the very sophisticated. The mosaic package was written specifically for use in statistics classrooms. We will use it along with a handful of other packages this semester, so you’ll need to learn how to install them. 
 
-The first minute of [this video](https://www.youtube.com/watch?v=u1r5XTqrCTQ) gives a walk-through, but we'll walk through the steps here, too.  (The same process works for any of the other libraries you'll need).  Conveniently, libraries, also called packages, are installed from within RStudio itself.   
+[![](files/0.jpg)](https://www.youtube.com/watch?v=6vMO3XmNXe4)
+
+R is kind of like that. Not that that's how you learn R, but that's how R learns new things. R is capable of acquiring new capabilities, beyond what's possible with the basic installation ('base') of R. These new capabilities get downloaded into your R program as 'packages' or 'libraries'. These packages live in an online repository called CRAN. (Acutally there are lots of these repositories, but thats for another day.) You get these into R by first downloading them (with the command `install.packages("PACKAGE_NAME_HERE")`) and then loading it into your R session (`library(PACKAGE_NAME_HERE)`).
+
+<a href="https://imgflip.com/i/1tl4y5"><img src="https://i.imgflip.com/1tl4y5.jpg" title="made at imgflip.com"/></a>
+
+R has an enormous ecosystem of libraries (number in the tens of thousands) for various data-analysis tasks, ranging from the simple to the very sophisticated. 
+
+The first minute of [this video](https://www.youtube.com/watch?v=u1r5XTqrCTQ) gives a walk-through, but we'll walk through the steps here, too.  Conveniently, packages, can be installed from within RStudio itself.   
 
 ### Installing a library from within RStudio
 
