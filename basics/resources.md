@@ -15,8 +15,15 @@ Whatever questioned you googled, the first google hit was probably a Stack Overf
 
 ###Youtube videos
 
+There are TONS of youtube videos which explain how to do things in R. Obviously these go into a bit more depth than the Stack Overflow questions. I like videos by a guy named Hadley Wickham. He's kind of the god of R right now.
+
+
 ###Online courses
-Check Rstudio website
+Check the Rstudio website, https://www.rstudio.com/online-learning/, which has some great online resources and courses. I actually started learning R by doing a coursera course, called the data science specialization in Coursera, by some statisticians from Johns Hopkins.
+
+###Programs for R programming
+There is actually a cool little program that is useful for learning R, its called Swirl. The packge runs in your Rstudio program. The swirl R package makes it fun and easy to learn R programming and data science. Go to http://swirlstats.com/ for instructions on how to download.
+
 
 ###Books
-r4ds
+There are plenty of books about using R. Some are actually free and available online. I recommend http://r4ds.had.co.nz/. 
