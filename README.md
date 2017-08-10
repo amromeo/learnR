@@ -9,7 +9,7 @@
 We will learn R by doing and through exercises. The following are a bunch of hopefully useful tutorials/exercises to get you started. Feel free to peruse the internet, there are plenty of these sorts of things.
 
 1. To learn the basics, open the 1_RBasics.Rmd file in the directory 'tutorials' and follow the instructions. 
-2. Dataframe is to R as spreadsheet is to Excel. Open the 1_RDataframe.Rmd file in the directory 'tutorials' and follow the instructions to learn more. 
+2. Dataframe is to R as spreadsheet is to Excel. Open the 2_dataframes.Rmd file in the directory 'tutorials' and follow the instructions to learn more. 
 
 ### Exploratory data analysis
 - [Survival on the Titanic](titanic/titanic.md): basics of contingency tables.  

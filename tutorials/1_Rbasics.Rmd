@@ -5,7 +5,7 @@ output: html_document
 ---
 
 ***
-The best way to learn R is by doing it. But beo In this tutorial we will learn the basics of working with R. 
+The best way to learn R is by doing it. But before you get going its best to do some exercises to learn about what this is all about. In this tutorial we will learn the basics of working with R. 
 
 ### Basic R Commands
 In excel you put your data in a spreadsheet if you're working with a big table of data, and if you're just working with simple calculations, you just work with the individual cells. In R it works a bit different, the data goes into a variable. R recognizes whether you're working with a big table of data and converts that variable into a 'dataframe' or if you're just putting a number or some text in where it'll convert the variable into a 'numeric' or 'character'. 
