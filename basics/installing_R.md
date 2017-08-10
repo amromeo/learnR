@@ -2,7 +2,7 @@
 layout: page
 ---
 
-This page will walk you through the installation of R and RStudio.  R is the workhorse that actually does the computations.  You won't ever need to launch the R program directly, but it has to be installed on your computer.  RStudio is a nice graphical front-end to R.  This is the program you will interact with directly, but it depends "under the hood" on R itself.  
+This page will walk you through the installation of R and RStudio.  Think of a car. The engine is doing all the work, but you don't sit there pumping gas in, measuring the temperature with a thermometer and shifting settings on the gear box. You sit in the driver's seat and push and press things that make the engine do stuff. You also look at dials that tell you whats going on in there. R is the workhorse that actually does the computations.  You don't ever need to launch the R program directly, but it has to be installed on your computer.  RStudio is a nice graphical front-end to R.  This is the program you will interact with directly, but it depends "under the hood" on R itself.  
 
 
 ### Installing R
