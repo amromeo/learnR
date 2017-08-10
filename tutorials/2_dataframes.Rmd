@@ -72,6 +72,13 @@ bloodpressure.df<-read_excel('data/bloodpressure.xlsx',sheet = 'bloodpressure')
 ###Exploring the data in the creatinine.df
 The data in there can be initially explored in bunch of ways. 
 
+You can just print all the data out by typing the name of the data frame variable
+
+```{r print}
+bloodpressure.df
+```
+
+
 
 Head shows the first few rows of the data frame
 ```{r head}
@@ -92,3 +99,53 @@ summary() shows some basic statistics of whats in there.
 ```{r summary}
 summary(creatinine.df)
 ```
+
+Finally, View() will actually display the data frame in one of the tabs above the upper left Rstudio frame. Its really useful.
+
+```{r View}
+View(creatinine.df)
+```
+
+
+The $ sign allows us to explore a single variable within a data frame. For example
+
+```{r}
+bloodpressure.df$systolic
+#This will print out all the values in the column systolic
+```
+
+###Deeper dive
+Now I mentioned earlier that each column of the data frame gets its own variable type or class, e.g. numeric, character, date. This is important because R will not let you take an average of a column that it thinks is full of characters even if you think that all the data is numerical. Also, it might think a column is full of numbers, but they are actually full of dates, or maybe patient numbers (which I guess are numbers, but really aren't.) 
+
+How do we figure out what kind of columns are in our dataframe. well you can use the tools above. You can also go to your upper right pane, the environemnt tab has all the variables and dataframes, and you can click on the arrow to get more info.
+
+But say we want to change that class of the column, how do you do it? You COERCE it into the one you want.
+
+See the 'subject' column in the bloodpressure.df dataframe. Its now encoded as a numeric, but maybe we want to treat it more like a character, because we don't really want to do sums and means with those numbers. here's what we would do.
+
+```{r coerce}
+#OK now this is the real deal with R
+#We'll go through this step by step
+#You can access a single column in a dataframe with the dollar sign
+#This will pring out all the values in the column subject
+bloodpressure.df$subject
+
+#You can access the class of something by wrapping it in the class() function
+class(bloodpressure.df$subject)
+
+#Finally, R lets you modify these things with the <- sign
+class(bloodpressure.df$subject)<-'character'
+
+#Check we did a good job
+class(bloodpressure.df$subject)
+bloodpressure.df$subject
+
+
+```
+
+Note all those quotation marks. They are there because those values arent really numbers, they are "numbers" meaning character strings that are just composed of number characters.
+
+```{r}
+knitr::kable(bloodpressure.df)
+```
+
