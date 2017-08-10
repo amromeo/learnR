@@ -79,6 +79,12 @@ bloodpressure.df
 ```
 
 
+You can get the names of the columns in the data frame using names()
+```{r names}
+names(bloodpressure.df)
+```
+
+
 
 Head shows the first few rows of the data frame
 ```{r head}
@@ -145,7 +151,4 @@ bloodpressure.df$subject
 
 Note all those quotation marks. They are there because those values arent really numbers, they are "numbers" meaning character strings that are just composed of number characters.
 
-```{r}
-knitr::kable(bloodpressure.df)
-```
-
+OK We are done here
