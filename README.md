@@ -29,11 +29,8 @@ Plotting is fun. Its the way to start looking at all your data, whats in there, 
 3. [This video](https://www.youtube.com/watch?v=TaxJwC_MP9Q&t=4s) by the creator of ggplot2, Hadley Wickham. [This one](https://www.youtube.com/watch?v=n8kYa9vu1l8) is by Roger Peng.
 4. [This](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) is a useful cheatsheet (Rstudio makes a bunch of these)
 
-
-
-
-
-
+## Starting here are a bunch of lessons from the original repo. 
+Feel free to peruse, but we'll probably go our own way.
 
 ### Exploratory data analysis
 - [Survival on the Titanic](titanic/titanic.md): basics of contingency tables.  
