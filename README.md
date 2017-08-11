@@ -11,6 +11,30 @@ We will learn R by doing and through exercises. The following are a bunch of hop
 1. To learn the basics, open the 1_RBasics.Rmd file in the directory 'tutorials' and follow the instructions. 
 2. Dataframe is to R as spreadsheet is to Excel. Open the 2_dataframes.Rmd file in the directory 'tutorials' and follow the instructions to learn more. 
 
+### Getting your hands dirty with dplyr
+Now that you've learned the basics, its time to learn how to manipulate data. The tools that we will use to manipulate, munge and clean data will come from the package `dplyr`
+
+There are many many online resources to learn about dplyr. I'd recommend:
+
+1. [This book chapter](https://ismayc.github.io/moderndiver-book/5-wrangling.html)
+2. [This book chapter](http://r4ds.had.co.nz/transform.html), which has a more extensive review of this subject
+3. [This video](https://www.youtube.com/watch?v=8SGif63VW6E) by the creator of dplyr, Hadley Wickham. If you want a shorter one, the first half of [this one](https://www.youtube.com/watch?v=40tyOFMZUSM&t=37s) is pretty good. [This](https://www.youtube.com/watch?v=aywFompr1F4) is a shorter one by Roger Peng who is a statistician at Hopkins and is also pretty good. 
+4. [This](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) is a useful cheatsheet (Rstudio makes a bunch of these)
+
+### Making plots with, the ggplot2 way
+Plotting is fun. Its the way to start looking at all your data, whats in there, what correlates with what. I recommend the ggplot2 package for making plots in R. It has an intuitive (once you get it) logic and it has tons and tons of add-on packages that enhance its functionality. The gg in ggplot2 stands for 'grammer of graphics' which is based on the idea that just like a language has rules, logic, verbs/adjectives/nouns, plots also have a fundamental vocabulary. The following are good resources for learning how to use ggplot2.
+
+1. [This book chapter](https://ismayc.github.io/moderndiver-book/3-viz.html#grammarofgraphics)
+2. [This book chapter](http://r4ds.had.co.nz/data-visualisation.html), which has a more extensive review of this subject
+3. [This video](https://www.youtube.com/watch?v=TaxJwC_MP9Q&t=4s) by the creator of ggplot2, Hadley Wickham. [This one](https://www.youtube.com/watch?v=n8kYa9vu1l8) is by Roger Peng.
+4. [This](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) is a useful cheatsheet (Rstudio makes a bunch of these)
+
+
+
+
+
+
+
 ### Exploratory data analysis
 - [Survival on the Titanic](titanic/titanic.md): basics of contingency tables.  
 - [Temperatures in San Diego and Rapid City](citytemps/citytemps.md): measuring and visualizing dispersion; changing default plots in R.
