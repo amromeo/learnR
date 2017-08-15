@@ -1,4 +1,4 @@
-## R Walkthroughs
+## Getting Started With R
 
 ### Introduction to R
 - [Installing R](basics/installing_R.html): installing R and RStudio.  
