@@ -35,7 +35,8 @@ There is actually a cool little program that is useful for learning R, its calle
 
 
 ### Books
-There are plenty of books about using R. Some are actually free and available online. I recommend http://r4ds.had.co.nz/. 
+There are plenty of books about using R. Some are actually free and available online. I recommend [R4DS](http://r4ds.had.co.nz/). 
+Another, much more basic, but nice and meaty book is [this one](https://ismayc.github.io/moderndiver-book/)
 
 
 [Back to Home Page](../README.html)
